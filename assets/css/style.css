@@ -291,10 +291,62 @@ footer {
     top: 2.4em;
     position: absolute;
     left: -6px;
-    border-radius: 12px;
+    border-radius: 50%;
     content: '';
     background-color: #fafafa;
 }
 .history-items {
     margin-bottom: 30px;
+}
+
+
+
+
+/*----------------------------Contact Page----------*/
+
+.bg-color-contact {
+    background-color: #fff;
+}
+
+/*------------Form---------*/
+
+.center-form form input , .center-form form textarea  {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.center-form button {
+    margin-bottom: 15px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.hvr-shutter-in-horizontal:before {
+    background-color: #e84610;
+}
+
+.btn:hover {
+    background-color: #c33708;
+}
+
+/*-----------Media Query----*/
+
+@media screen and (min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        max-width: 50%;
+    }
 }
