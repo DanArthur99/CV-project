@@ -2,6 +2,7 @@
 
 header {
     margin: 0;
+    
 }
 
 .heading {
@@ -348,5 +349,10 @@ footer {
         padding-top: 30px;
         min-height: 240px;
         max-width: 50%;
+    }
+}
+@media (min-width: 632px) {
+    .d-custom-none {
+        display: none!important;
     }
 }
